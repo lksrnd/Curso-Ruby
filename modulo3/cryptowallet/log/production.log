@@ -1,0 +1,36 @@
+I, [2023-07-06T08:49:04.745634 #12123]  INFO -- : [090062db-1477-4245-b79c-a7265e005ec1] Started GET "/" for 127.0.0.1 at 2023-07-06 08:49:04 -0300
+I, [2023-07-06T08:49:04.746865 #12123]  INFO -- : [090062db-1477-4245-b79c-a7265e005ec1] Processing by WelcomeController#index as HTML
+I, [2023-07-06T08:49:04.754681 #12123]  INFO -- : [090062db-1477-4245-b79c-a7265e005ec1]   Rendering welcome/index.html.erb within layouts/application
+I, [2023-07-06T08:49:04.799009 #12123]  INFO -- : [090062db-1477-4245-b79c-a7265e005ec1]   Rendered welcome/_menu.html.erb (0.4ms)
+I, [2023-07-06T08:49:04.799133 #12123]  INFO -- : [090062db-1477-4245-b79c-a7265e005ec1]   Rendered welcome/index.html.erb within layouts/application (44.3ms)
+I, [2023-07-06T08:49:04.800865 #12123]  INFO -- : [090062db-1477-4245-b79c-a7265e005ec1] Completed 500 Internal Server Error in 54ms
+F, [2023-07-06T08:49:04.801789 #12123] FATAL -- : [090062db-1477-4245-b79c-a7265e005ec1]   
+F, [2023-07-06T08:49:04.801852 #12123] FATAL -- : [090062db-1477-4245-b79c-a7265e005ec1] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+F, [2023-07-06T08:49:04.801995 #12123] FATAL -- : [090062db-1477-4245-b79c-a7265e005ec1]      5:     <%= csrf_meta_tags %>
+[090062db-1477-4245-b79c-a7265e005ec1]      6:     <%= csp_meta_tag %>
+[090062db-1477-4245-b79c-a7265e005ec1]      7: 
+[090062db-1477-4245-b79c-a7265e005ec1]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[090062db-1477-4245-b79c-a7265e005ec1]      9:     <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
+[090062db-1477-4245-b79c-a7265e005ec1]     10:     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+[090062db-1477-4245-b79c-a7265e005ec1]     11: 
+F, [2023-07-06T08:49:04.802029 #12123] FATAL -- : [090062db-1477-4245-b79c-a7265e005ec1]   
+F, [2023-07-06T08:49:04.802054 #12123] FATAL -- : [090062db-1477-4245-b79c-a7265e005ec1] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__198252231732268068_47052010428320'
+I, [2023-07-06T08:49:07.248997 #12123]  INFO -- : [0a36459f-d518-40bf-9549-5d0feb1a954c] Started GET "/" for 127.0.0.1 at 2023-07-06 08:49:07 -0300
+I, [2023-07-06T08:49:07.249778 #12123]  INFO -- : [0a36459f-d518-40bf-9549-5d0feb1a954c] Processing by WelcomeController#index as HTML
+I, [2023-07-06T08:49:07.250987 #12123]  INFO -- : [0a36459f-d518-40bf-9549-5d0feb1a954c]   Rendering welcome/index.html.erb within layouts/application
+I, [2023-07-06T08:49:07.251641 #12123]  INFO -- : [0a36459f-d518-40bf-9549-5d0feb1a954c]   Rendered welcome/_menu.html.erb (0.1ms)
+I, [2023-07-06T08:49:07.251717 #12123]  INFO -- : [0a36459f-d518-40bf-9549-5d0feb1a954c]   Rendered welcome/index.html.erb within layouts/application (0.7ms)
+I, [2023-07-06T08:49:07.252750 #12123]  INFO -- : [0a36459f-d518-40bf-9549-5d0feb1a954c] Completed 500 Internal Server Error in 3ms
+F, [2023-07-06T08:49:07.253299 #12123] FATAL -- : [0a36459f-d518-40bf-9549-5d0feb1a954c]   
+F, [2023-07-06T08:49:07.253330 #12123] FATAL -- : [0a36459f-d518-40bf-9549-5d0feb1a954c] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+F, [2023-07-06T08:49:07.253409 #12123] FATAL -- : [0a36459f-d518-40bf-9549-5d0feb1a954c]      5:     <%= csrf_meta_tags %>
+[0a36459f-d518-40bf-9549-5d0feb1a954c]      6:     <%= csp_meta_tag %>
+[0a36459f-d518-40bf-9549-5d0feb1a954c]      7: 
+[0a36459f-d518-40bf-9549-5d0feb1a954c]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[0a36459f-d518-40bf-9549-5d0feb1a954c]      9:     <%= stylesheet_link_tag    'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
+[0a36459f-d518-40bf-9549-5d0feb1a954c]     10:     <%= stylesheet_link_tag    params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>
+[0a36459f-d518-40bf-9549-5d0feb1a954c]     11: 
+F, [2023-07-06T08:49:07.253428 #12123] FATAL -- : [0a36459f-d518-40bf-9549-5d0feb1a954c]   
+F, [2023-07-06T08:49:07.253452 #12123] FATAL -- : [0a36459f-d518-40bf-9549-5d0feb1a954c] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__198252231732268068_47052010428320'
