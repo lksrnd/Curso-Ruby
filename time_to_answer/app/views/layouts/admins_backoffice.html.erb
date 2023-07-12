@@ -36,18 +36,18 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                <%= link_to admins_backoffice_welcome_index_path, class:"nav-link" do %>
+                <i class="fas fa-fw fa-tachometer-alt"></i> <span>Dashboard</span>
+                <% end %>
             </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider">
             <!--Nav Item - Admin-->
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">
-                    <i class="fas fa-solid fa-users"></i>
-                    <span>Administradores</span></a>
+            <li class="nav-item">
+            <%= link_to admins_backoffice_admins_index_path, class:"nav-link" do %>
+              <i class="fas fa-solid fa-users"></i><span>Administradores</span>
+            <% end %>     
             </li>
 
         </ul>
@@ -83,8 +83,8 @@
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                    <%= link_to destroy_admin_session_path, method: :delete do %>
-                                        <i class="fas fa-sign-out-alt fa-fw mr-2 text-gray-400"></i>Sair
+                                <%= link_to destroy_admin_session_path, method: :delete, class:"dropdown-item",  data_toggle:"modal", data_target:"#logoutModal" do %>
+                                <i class="fas fa-sign-out-alt fa-fw mr-2 text-gray-400"></i>Sair
                                 <% end %>  
                             </div>  
                         </li>
