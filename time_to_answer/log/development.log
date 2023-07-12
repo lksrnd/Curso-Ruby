@@ -7098,3 +7098,336 @@ Processing by UsersBackoffice::WelcomeController#index as HTML
 Completed 200 OK in 53ms (Views: 51.0ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/admins_backoffice/welcome/index" for ::1 at 2023-07-12 09:40:55 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.8ms)
+Completed 200 OK in 35ms (Views: 32.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 09:41:24 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.6ms)
+Completed 200 OK in 29ms (Views: 26.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 09:41:25 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.7ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 09:42:06 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.5ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:07:25 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.6ms)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:09:09 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.5ms)
+Completed 200 OK in 34ms (Views: 27.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:09:10 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.7ms)
+Completed 200 OK in 31ms (Views: 28.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:09:13 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.6ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:10:23 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.8ms)
+Completed 200 OK in 32ms (Views: 29.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:10:43 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.6ms)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:12:20 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.5ms)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:12:55 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (1.2ms)
+Completed 200 OK in 470ms (Views: 452.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:12:56 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.6ms)
+Completed 200 OK in 52ms (Views: 49.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:12:57 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.6ms)
+Completed 200 OK in 39ms (Views: 36.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:12:57 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.7ms)
+Completed 200 OK in 28ms (Views: 26.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:12:57 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.5ms)
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:13:55 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.5ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:13:56 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.9ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admins_backoffice/welcome/index.html" for ::1 at 2023-07-12 10:14:13 -0300
+Processing by AdminsBackoffice::WelcomeController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/lucascesar/.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activerecord-5.2.8.1/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/welcome/index.html.erb within layouts/admins_backoffice (0.4ms)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.1ms)
+
+
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" ORDER BY "admins"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (6.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to DeviseCreateAdmins (20230707175731)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "admins" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20230707175731_devise_create_admins.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admins_on_email" ON "admins" ("email")[0m
+  ↳ db/migrate/20230707175731_devise_create_admins.rb:39
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admins_on_reset_password_token" ON "admins" ("reset_password_token")[0m
+  ↳ db/migrate/20230707175731_devise_create_admins.rb:40
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230707175731"]]
+  ↳ bin/rails:9
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to DeviseCreateUsers (20230710200656)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20230710200656_devise_create_users.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  ↳ db/migrate/20230710200656_devise_create_users.rb:39
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  ↳ db/migrate/20230710200656_devise_create_users.rb:40
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230710200656"]]
+  ↳ bin/rails:9
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-07-12 13:26:26.137382"], ["updated_at", "2023-07-12 13:26:26.137382"]]
+  ↳ bin/rails:9
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:22
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "admin@admin.com"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:22
+  [1m[36mAdmin Create (0.8ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin@admin.com"], ["encrypted_password", "$2a$12$a53MXHkqdw2gheSBz0DrRucw7V.03ZzXpIc493.S/jxo5GoiknCgC"], ["created_at", "2023-07-12 13:26:27.883985"], ["updated_at", "2023-07-12 13:26:27.883985"]]
+  ↳ lib/tasks/dev.rake:22
+  [1m[35m (9.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:22
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "tuan@kreiger.name"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Create (0.8ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "tuan@kreiger.name"], ["encrypted_password", "$2a$12$VRXnx0rGSzi9Y.DMmP5IcuxHpXw2MlnaEdhETujPSbtlWB.Wzmv.e"], ["created_at", "2023-07-12 13:26:29.854669"], ["updated_at", "2023-07-12 13:26:29.854669"]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "josh_pfeffer@rogahn.com"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Create (0.3ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "josh_pfeffer@rogahn.com"], ["encrypted_password", "$2a$12$b3AAEMhoJ5Bb810F383EAeCa0WNDFarewYnstlbFje338gY4vOD9K"], ["created_at", "2023-07-12 13:26:30.089594"], ["updated_at", "2023-07-12 13:26:30.089594"]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "carson_keeling@carroll.info"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Create (0.5ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "carson_keeling@carroll.info"], ["encrypted_password", "$2a$12$CBfQRoSz5D/3BQRUJx7UueGehd9Cnfb3EQ7oDM60ayqefMpD6gkte"], ["created_at", "2023-07-12 13:26:30.321901"], ["updated_at", "2023-07-12 13:26:30.321901"]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "emmie@bergstrom-cruickshank.com"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Create (0.5ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "emmie@bergstrom-cruickshank.com"], ["encrypted_password", "$2a$12$uUnWgXLHuQi6pmj8XFy0cewZeuOtSIpTK2/paajXuZ7AE0DGe0WW2"], ["created_at", "2023-07-12 13:26:30.557458"], ["updated_at", "2023-07-12 13:26:30.557458"]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "mitchel@huels.info"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Create (0.6ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "mitchel@huels.info"], ["encrypted_password", "$2a$12$QiSBgNIwyhmjGE2j4JLNLOCeWuRUBfsAyVS5Gqg5N3Hkuk80W6eVy"], ["created_at", "2023-07-12 13:26:30.788753"], ["updated_at", "2023-07-12 13:26:30.788753"]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "scottie.littel@barrows.com"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Create (0.5ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "scottie.littel@barrows.com"], ["encrypted_password", "$2a$12$w4yEHFC9Cs/CeWZ.oaxOy.DcWcRN9Pr93B7X6iMabVyIHsP41N8Te"], ["created_at", "2023-07-12 13:26:31.022911"], ["updated_at", "2023-07-12 13:26:31.022911"]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "fritz.koss@monahan.org"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Create (0.2ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "fritz.koss@monahan.org"], ["encrypted_password", "$2a$12$o0njg87p3DTBDZVexy5Mlu8qGieg1/34WFzXVzXksHTCYBReC8aiC"], ["created_at", "2023-07-12 13:26:31.264731"], ["updated_at", "2023-07-12 13:26:31.264731"]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "roosevelt@kautzer-murphy.biz"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Create (0.5ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "roosevelt@kautzer-murphy.biz"], ["encrypted_password", "$2a$12$YDnI493vsNpY/3QAQItr8.piJAodRC0ICG955SAzX4xk4Dh1FV8bi"], ["created_at", "2023-07-12 13:26:31.499749"], ["updated_at", "2023-07-12 13:26:31.499749"]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "dalton@prohaska.co"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Create (0.5ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "dalton@prohaska.co"], ["encrypted_password", "$2a$12$7YdkzaJKAFaTm8f4PR0PXOikRdea0c90mVQST36e5TQanicDszc8a"], ["created_at", "2023-07-12 13:26:31.733592"], ["updated_at", "2023-07-12 13:26:31.733592"]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "lucio_kub@heaney.biz"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[36mAdmin Create (0.3ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "lucio_kub@heaney.biz"], ["encrypted_password", "$2a$12$mW2o6T.1WOL1lJpUWOE5PONGR35lF.N6w2VClp.Z3FkxnFQtg4lFy"], ["created_at", "2023-07-12 13:26:31.965223"], ["updated_at", "2023-07-12 13:26:31.965223"]]
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:31
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:41
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "user@user.com"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:41
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "user@user.com"], ["encrypted_password", "$2a$12$dsnJP6R6JLM2PgK7EsSF8uyf7YG2pEbDoWxjZCw/bdHnHJWgucjc6"], ["created_at", "2023-07-12 13:26:33.767121"], ["updated_at", "2023-07-12 13:26:33.767121"]]
+  ↳ lib/tasks/dev.rake:41
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:41
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admins"[0m
+  [1m[36mAdmin Load (0.6ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mAdmin Load (0.9ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  [1m[36mAdmin Load (0.6ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mAdmin Load (0.4ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
