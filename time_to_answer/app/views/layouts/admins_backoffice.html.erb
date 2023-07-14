@@ -45,8 +45,21 @@
             <hr class="sidebar-divider">
             <!--Nav Item - Admin-->
             <li class="nav-item">
-            <%= link_to admins_backoffice_admins_index_path, class:"nav-link" do %>
-              <i class="fas fa-solid fa-users"></i><span>Administradores</span>
+            <%= link_to admins_backoffice_admins_path, class:"nav-link" do %>
+              <i class="fas fa-users"></i><span>Administradores</span>
+            <% end %>     
+            </li>
+                        <!-- Divider -->
+            <hr class="sidebar-divider">
+            <!--Nav Item - Admin-->
+            <li class="nav-item">
+            <%= link_to admins_backoffice_subjects_path, class:"nav-link" do %>
+              <i class="far fa-file-alt"></i><span>Assuntos/Áreas</span>
+            <% end %>     
+            </li>
+            <li class="nav-item">
+            <%= link_to admins_backoffice_questions_path, class:"nav-link" do %>
+              <i class="fas fa-list"></i><span>Questões</span>
             <% end %>     
             </li>
 
@@ -99,7 +112,7 @@
 
                     <!-- Page Heading -->
                     <h1 class="h3 mb-4 text-gray-800"></h1>
-                                 <%= yield %>
+                    <%= yield %>
                 </div>
                 <!-- /.container-fluid -->
 
@@ -150,5 +163,16 @@
     <%= javascript_include_tag 'application'%> 
     <%= javascript_include_tag 'admins_backoffice'%>  
 
+  <% if notice %>
+    <%= javascript_tag do %>
+      $.bootstrapGrowl( '<%= notice%>' , {
+      type: 'success', // (null, 'info', 'danger', 'success')
+      align: 'right', // ('left', 'right', or 'center')
+      delay: 4000, // Time while the message will be displayed. It's not equivalent to the *demo* timeOut!
+      allow_dismiss: true, // If true then will display a cross to close the popup.
+      stackup_spacing: 10 // spacing between consecutively stacked growls.
+      });
+    <% end %>
+  <% end %>
 </body>
 </html>
