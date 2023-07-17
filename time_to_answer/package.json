@@ -6,7 +6,7 @@
     "bootstrap-growl-ifightcrime": "^1.1.0",
     "fastclick": "^1.0.6",
     "font-awesome": "4.6.3",
-    "fontawesome": "^4.5.0",
+    "fontawesome-free": "^1.0.4",
     "jquery": "3.6.0",
     "jquery.easing": "1.4.1",
     "malihu-custom-scrollbar-plugin": "^3.1.5",

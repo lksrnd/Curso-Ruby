@@ -32,10 +32,15 @@ npm manifest:
     "private": true,
     "dependencies": {
       "bootstrap": "4.6.0",
-      "fontawesome": "^5.6.3",
+      "bootstrap-growl-ifightcrime": "^1.1.0",
+      "fastclick": "^1.0.6",
+      "font-awesome": "4.6.3",
+      "fontawesome": "^4.5.0",
       "jquery": "3.6.0",
       "jquery.easing": "1.4.1",
-      "popper.js": "1.16.1"
+      "malihu-custom-scrollbar-plugin": "^3.1.5",
+      "nprogress": "^0.2.0",
+      "popper.js": "^1.16.1"
     },
     "version": "1.0.0",
     "main": "index.js",
@@ -50,15 +55,35 @@ Lockfile:
   # yarn lockfile v1
   
   
+  bootstrap-growl-ifightcrime@^1.1.0:
+    version "1.1.0"
+    resolved "https://registry.yarnpkg.com/bootstrap-growl-ifightcrime/-/bootstrap-growl-ifightcrime-1.1.0.tgz#3f83c12bd29281315580a05ec13841d60031539e"
+    integrity sha512-GDHa1aB/nQWaSZQF0dIWnDFDFsdUGcExYR83scVzDXWxjK/W0ZWSXKxK1wvvQeOGgKaLmAY8MLdxCqYc/1DnxQ==
+  
   bootstrap@4.6.0:
     version "4.6.0"
     resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.6.0.tgz#97b9f29ac98f98dfa43bf7468262d84392552fd7"
     integrity sha512-Io55IuQY3kydzHtbGvQya3H+KorS/M9rSNyfCGCg9WZ4pyT/lCxIlpJgG1GXW/PswzC84Tr2fBYi+7+jFVQQBw==
   
-  fontawesome@^5.6.3:
-    version "5.6.3"
-    resolved "https://registry.yarnpkg.com/fontawesome/-/fontawesome-5.6.3.tgz#73f0b865fa2b0b384e69d531c05a02c643b72f95"
-    integrity sha512-FCc+CawwsJWWprVEg9X14yI7zI+l9YVAyhzgu70qwGeDn0tLLDH/dVfqgij72g4BBGgLGfK2qnvFGAmYUkhaWg==
+  fastclick@^1.0.6:
+    version "1.0.6"
+    resolved "https://registry.yarnpkg.com/fastclick/-/fastclick-1.0.6.tgz#161625b27b1a5806405936bda9a2c1926d06be6a"
+    integrity sha512-cXyDBT4g0uWl/Xe75QspBDAgAWQ0lkPi/zgp6YFEUHj6WV6VIZl7R6TiDZhdOVU3W4ehp/8tG61Jev1jit+ztQ==
+  
+  font-awesome@4.6.3:
+    version "4.6.3"
+    resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.6.3.tgz#86933651540ee00874c664017f50f2172f6531a2"
+    integrity sha512-I5rWuHv7MI5uYDGFT1SJohxdkTfks41QQ9fvMEzvBnWppsehXnoj8LNuW4MGtawSrHvApYVhCZSC7rk5wDycyw==
+  
+  fontawesome@^4.5.0:
+    version "4.5.0"
+    resolved "https://registry.yarnpkg.com/fontawesome/-/fontawesome-4.5.0.tgz#292915ce87e97341fd1dd2f9bd8615d3b8f55fff"
+    integrity sha512-G63qArleh/tFEAM5XIkkJDuuaBeCFGqp+uOLvuxsvuwwUJsfF21Ow0ur9/4jEf4QjfGiOYxl04s7durpb99NBQ==
+  
+  jquery-mousewheel@>=3.0.6:
+    version "3.1.13"
+    resolved "https://registry.yarnpkg.com/jquery-mousewheel/-/jquery-mousewheel-3.1.13.tgz#06f0335f16e353a695e7206bf50503cb523a6ee5"
+    integrity sha512-GXhSjfOPyDemM005YCEHvzrEALhKDIswtxSHSR2e4K/suHVJKJxxRCGz3skPjNxjJjQa9AVSGGlYjv1M3VLIPg==
   
   jquery.easing@1.4.1:
     version "1.4.1"
@@ -70,7 +95,19 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
     integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
   
-  popper.js@1.16.1:
+  malihu-custom-scrollbar-plugin@^3.1.5:
+    version "3.1.5"
+    resolved "https://registry.yarnpkg.com/malihu-custom-scrollbar-plugin/-/malihu-custom-scrollbar-plugin-3.1.5.tgz#310cecc5e59415a1c29e9dfb5d2b6e01d66a29ef"
+    integrity sha512-lwW3LgI+CNDMPnP4ED2la6oYxWMkCXlnhex+s2wuOLhFDFGnGmQuTQVdRK9bvDLpxs10sGlfErVufJy9ztfgJQ==
+    dependencies:
+      jquery-mousewheel ">=3.0.6"
+  
+  nprogress@^0.2.0:
+    version "0.2.0"
+    resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
+    integrity sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==
+  
+  popper.js@^1.16.1:
     version "1.16.1"
     resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
     integrity sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
