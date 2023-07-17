@@ -24,7 +24,7 @@
 
   <div class="col col-lg-12">
     <div class="panel panel-default">
-      <div class="panel-heading"><h4><%= "#{action_message}" %> Assunto/Área</h4>
+      <div class="panel-heading"><h4><%= @subject.model_name.human %> </h4>
       </div>
       <div class="panel-body">
         <div class="row">
@@ -33,9 +33,9 @@
   
               <div class="form-group">
                 <%= form.label :description %>
-                <%= form.text_field :description, class:"form-control", placeholder:"Descrição do assunto/Área" %>
+                <%= form.text_field :description, class:"form-control", placeholder:t('placeholder.subject_description') %>
               </div>
-              <button type="submit" class="btn btn-secondary">Salvar</button>
+              <button type="submit" class="btn btn-secondary"><%= t('buttons.save') %></button>
             <% end %>
           </div>
 <!-- /.col-lg-6 (nested) -->
